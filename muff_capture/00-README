@@ -1,0 +1,4 @@
+# Last edited on 2018-07-05 16:55:24 by stolfilocal
+
+Python script to interface with the Arduino in the MUFF v2.0
+microscope positioner, and to capture images from its camera.
