@@ -1,6 +1,9 @@
 # muff
 # Automated Positioner for Multifocal Stereo and Photometric Stereo Techniques
 
+![Automated Positioner](imgs/MUFF.png)
+
+
 This project presents the development of a **low-cost automated positioner** designed to facilitate image capture for **Multifocus Stereo (MFS)** and **Photometric Stereo (PMS)** techniques in microscopic applications. Utilizing **additive manufacturing**, the system enables precise and accessible 3D image reconstruction.
 
 ## Features
