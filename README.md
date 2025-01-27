@@ -34,11 +34,19 @@ MUFF is ideal for:
 
 
 
+# Citation
+If you use MUFF in your research or projects, please consider citing our work:
+
+# Paper Link
+[Paper](https://www.researchgate.net/publication/358866260_MUFF_A_Low-cost_Motorized_Positioner_Developed_by_Additive_Manufacturing_to_Obtain_Multi-focus_Images)
+
 ## Acknowledgments
 This project was developed by **Gustavo Lelis da Silva**, **Jorge Stolfi**, and **Helena Cristina da Gama Leitão** in collaboration with UNICAMP and UFF, with funding from CNPq, FAPERJ, and FAPESP.
 
 For detailed documentation and additional resources, visit the [official project page](http://www.ic.uff.br/~hcgl/Muff-index.html).
 
+
+
 ---
 
-**Keywords**: Optical Microscopy, 3D Printing, Multi-Focus Stereo, Photometric Stereo, Arduino
+**Keywords**: Optical Microscopy, 3D Printing, Stereo Multifocus, Photometric Stereo, Arduino
