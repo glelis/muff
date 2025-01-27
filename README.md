@@ -1,11 +1,11 @@
-![Automated Positioner](imgs/MUFF.png)
-
-
 # MUFF: Motorized Positioner for Multi-Focus and Photometric Stereo Imaging
 
 This repository contains the resources and documentation for the **MUFF** project, a low-cost motorized positioner designed to facilitate the acquisition of multi-focus and photometric stereo images of millimeter-scale objects. 
 
 Developed primarily using **3D printing** and **Arduino**, MUFF automates the process of capturing images under varying focus planes and illumination conditions, enabling enhanced 3D object reconstruction.
+
+
+![Automated Positioner](imgs/MUFF.png)
 
 ## Features
 - **Multi-Focus Stereo (MFS)**: Combines images at different focus levels into a single sharp composite image.
