@@ -34,10 +34,10 @@ MUFF is ideal for:
 
 
 
-# Citation
+## Citation
 If you use MUFF in your research or projects, please consider citing our work:
 
-# Paper Link
+## Paper Link
 [Paper](https://www.researchgate.net/publication/358866260_MUFF_A_Low-cost_Motorized_Positioner_Developed_by_Additive_Manufacturing_to_Obtain_Multi-focus_Images)
 
 ## Acknowledgments
