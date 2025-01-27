@@ -1,27 +1,44 @@
-# muff
-# Automated Positioner for Multifocal Stereo and Photometric Stereo Techniques
-
 ![Automated Positioner](imgs/MUFF.png)
 
 
-This project presents the development of a **low-cost automated positioner** designed to facilitate image capture for **Multifocus Stereo (MFS)** and **Photometric Stereo (PMS)** techniques in microscopic applications. Utilizing **additive manufacturing**, the system enables precise and accessible 3D image reconstruction.
+# MUFF: Motorized Positioner for Multi-Focus and Photometric Stereo Imaging
+
+This repository contains the resources and documentation for the **MUFF** project, a low-cost motorized positioner designed to facilitate the acquisition of multi-focus and photometric stereo images of millimeter-scale objects. 
+
+Developed primarily using **3D printing** and **Arduino**, MUFF automates the process of capturing images under varying focus planes and illumination conditions, enabling enhanced 3D object reconstruction.
 
 ## Features
-- **Automated Image Capture**: Vertical motion through a stepper motor ensures stable and precise image stacking for MFS.
-- **Advanced Illumination Control**: 24 strategically placed LEDs within a hemispherical chamber provide uniform lighting conditions for PMS.
-- **Low-Cost and Open-Design**: Built using open-source software, 3D-printed parts, and readily available materials, ensuring easy reproducibility and adaptability.
-- **Microscope Integration**: Compatible with low-cost digital microscopes for versatile applications.
+- **Multi-Focus Stereo (MFS)**: Combines images at different focus levels into a single sharp composite image.
+- **Photometric Stereo (PMS)**: Captures and analyzes surface details under varied lighting conditions to recover 3D shape information.
+- **Automation**: Motorized positioning with sub-millimeter precision and up to 24 independent lighting conditions.
+- **Affordable Design**: Built using 3D-printed components and readily available hardware.
+- **Flexible Operation**: Controlled via an Arduino Nano microcontroller and a Python-based interface.
 
-## Key Components
-- **Mechanical Structure**: Designed with 3D-printed parts and modular components for flexibility and easy assembly.
-- **Electronics**: Arduino-based control for stepper motor and lighting management.
-- **Software**: Python-based control program for operating the system, including motion and light sequencing.
+## Components
+- **Hardware**: 
+  - 3D-printed structural and mechanical parts.
+  - Stepper motor and threaded rod for vertical displacement.
+  - Adjustable light box with 24 LED sources.
+- **Electronics**:
+  - Arduino Nano for motion and lighting control.
+  - DRV8825 motor driver and custom PCB for system integration.
+- **Software**:
+  - Arduino firmware for precise control of the positioner.
+  - Python script for image acquisition and user interaction.
 
 ## Applications
-This positioner is ideal for research in:
-- **Microscopy**
-- **3D Object Reconstruction**
-- **Material Analysis**
-- Other scientific studies requiring precise imaging techniques.
+MUFF is ideal for:
+- Optical microscopy
+- Imaging in fields like paleontology, petrology, manufacturing, and archaeology
+- Low-power microscopy for small-scale object analysis
+
+
+
+## Acknowledgments
+This project was developed by **Gustavo Lelis da Silva**, **Jorge Stolfi**, and **Helena Cristina da Gama Leitão** in collaboration with UNICAMP and UFF, with funding from CNPq, FAPERJ, and FAPESP.
+
+For detailed documentation and additional resources, visit the [official project page](http://www.ic.uff.br/~hcgl/Muff-index.html).
 
 ---
+
+**Keywords**: Optical Microscopy, 3D Printing, Multi-Focus Stereo, Photometric Stereo, Arduino
